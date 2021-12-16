@@ -17,13 +17,11 @@ const url = `https://pixabay.com/api/?key=${API_KEY}&q=${this.searchQuery}&image
 });
     }
     resetPage() {
-
     this.page=1
 }
 
     get query() {
-        
-       return this.searchQuery
+        return this.searchQuery
     };
     set query(newQuery) {
         this.searchQuery = newQuery;
